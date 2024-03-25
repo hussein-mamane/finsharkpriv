@@ -1,4 +1,6 @@
 using FinShark.Data;
+using FinShark.Interfaces;
+using FinShark.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +12,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(
     options => options.UseSqlite
         (builder.Configuration.GetConnectionString("sqlitedb")));
-
+builder.Services.AddScoped<IStockRepository, StockRepository>();
 
 var app = builder.Build();
 
