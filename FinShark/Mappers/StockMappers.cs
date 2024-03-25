@@ -8,7 +8,7 @@ public static class StockMappers
 {
     static StockMappers()
     {
-        
+        // Empty static constructor is redundant
     }
     //extension method on the Models.Stock class, return an instance of StockDto
     public static StockDto ToStockDto(this Models.Stock stockModel)

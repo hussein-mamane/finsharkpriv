@@ -126,3 +126,4 @@ C:\Users\Housseini\RiderProjects\FinShark\FinShark\obj\Debug\net8.0\refint\FinSh
 C:\Users\Housseini\RiderProjects\FinShark\FinShark\obj\Debug\net8.0\FinShark.pdb
 C:\Users\Housseini\RiderProjects\FinShark\FinShark\obj\Debug\net8.0\FinShark.genruntimeconfig.cache
 C:\Users\Housseini\RiderProjects\FinShark\FinShark\obj\Debug\net8.0\ref\FinShark.dll
+C:\Users\Housseini\RiderProjects\FinShark\FinShark\obj\Debug\net8.0\FinShark.sourcelink.json
