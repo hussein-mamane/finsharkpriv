@@ -127,3 +127,7 @@ C:\Users\Housseini\RiderProjects\FinShark\FinShark\obj\Debug\net8.0\FinShark.pdb
 C:\Users\Housseini\RiderProjects\FinShark\FinShark\obj\Debug\net8.0\FinShark.genruntimeconfig.cache
 C:\Users\Housseini\RiderProjects\FinShark\FinShark\obj\Debug\net8.0\ref\FinShark.dll
 C:\Users\Housseini\RiderProjects\FinShark\FinShark\obj\Debug\net8.0\FinShark.sourcelink.json
+C:\Users\Housseini\RiderProjects\FinShark\FinShark\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Housseini\RiderProjects\FinShark\FinShark\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Housseini\RiderProjects\FinShark\FinShark\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Housseini\RiderProjects\FinShark\FinShark\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

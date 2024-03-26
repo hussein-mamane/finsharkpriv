@@ -36,6 +36,7 @@ namespace FinShark.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
+                        .HasMaxLength(200)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -53,10 +54,12 @@ namespace FinShark.Migrations
 
                     b.Property<string>("CompanyName")
                         .IsRequired()
+                        .HasMaxLength(30)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Industry")
                         .IsRequired()
+                        .HasMaxLength(20)
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("LastDiv")
@@ -70,6 +73,7 @@ namespace FinShark.Migrations
 
                     b.Property<string>("Symbol")
                         .IsRequired()
+                        .HasMaxLength(4)
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -80,10 +84,15 @@ namespace FinShark.Migrations
             modelBuilder.Entity("FinShark.Models.Comment", b =>
                 {
                     b.HasOne("FinShark.Models.Stock", "Stock")
-                        .WithMany()
+                        .WithMany("Comments")
                         .HasForeignKey("StockId");
 
                     b.Navigation("Stock");
+                });
+
+            modelBuilder.Entity("FinShark.Models.Stock", b =>
+                {
+                    b.Navigation("Comments");
                 });
 #pragma warning restore 612, 618
         }

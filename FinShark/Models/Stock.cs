@@ -14,5 +14,5 @@ public class Stock
     [Column(TypeName ="decimal(18,2)")] public decimal Purchase { get; set; }
     [Column(TypeName ="decimal(18,2)")] public decimal LastDiv { get; set; }
     //Navigation Property
-    public List<Comment> Comments = [];//new List<Comments> but in collection expression
+    public List<Comment> Comments { get; set; } = []; // new List<Comment>();  but in collection expression, never forget { get; set; } here
 }
